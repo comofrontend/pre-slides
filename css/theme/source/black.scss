@@ -16,7 +16,7 @@
 
 
 // Override theme settings (see ../template/settings.scss)
-$backgroundColor: #222;
+$backgroundColor: #0078D7;
 
 $mainColor: #fff;
 $headingColor: #fff;
@@ -26,11 +26,12 @@ $mainFont: 'Source Sans Pro', Helvetica, sans-serif;
 $headingFont: 'Source Sans Pro', Helvetica, sans-serif;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
-$headingTextTransform: uppercase;
+$headingTextTransform: normal;
 $headingFontWeight: 600;
-$linkColor: #42affa;
+$linkColor: #fff;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
+$imageBorderSize: 0px;
 
 $heading1Size: 2.5em;
 $heading2Size: 1.6em;
@@ -47,3 +48,31 @@ section.has-light-background {
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+.reveal {
+	.team {
+		figure {
+			display: inline-flex;
+			flex-direction: column;
+			font-size: 24px;
+		}
+
+		img {
+			width: 200px;
+			border-radius: 50%;
+			border-width: 2px;
+		}
+	}
+
+	.host {
+		width: 400px;
+		background-color: #fff;
+		padding: 20px;
+	}
+
+	.events h2 {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+}

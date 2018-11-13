@@ -1,49 +1,102 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/theme/black.css" />
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css" />
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.type = "text/css";
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? "css/print/pdf.css"
+        : "css/print/paper.css";
+      document.getElementsByTagName("head")[0].appendChild(link);
+    </script>
+  </head>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h1>Welcome</h1>
+          <h2>@ Como Cafè</h2>
+        </section>
+        <section><h1>Community</h1></section>
+        <section><h1>Frontend</h1></section>
+        <section>
+          <div class="team">
+            <figure>
+              <img src="/img/angelo.jpeg" alt="" />
+              <figcaption>@Angelo_Di_Santo</figcaption>
+            </figure>
+            <figure>
+              <img src="/img/giko.jpg" alt="" />
+              <figcaption>@gcmznt</figcaption>
+            </figure>
+            <figure>
+              <img src="/img/valse.jpg" alt="" />
+              <figcaption>@valse</figcaption>
+            </figure>
+            <figure><img src="/img/question.jpg" alt="" /></figure>
+          </div>
+        </section>
+        <section>
+          <h1>🏠</h1>
+          <img src="/img/gds.png" alt="" class="host" />
+        </section>
+        <section>
+          <h1>Prossimi eventi</h1>
+          <div class="events">
+            <h2><small>16 Novembre - Verona</small> NodeJS Conf</h2>
+            <h2><small>29-30 Novembre - Milano</small> Codemotion</h2>
+          </div>
+        </section>
+        <section>
+          <h2>After party</h2>
+          <h1>🍕</h1>
+        </section>
+        <section>
+          <h2>Marco Valsecchi</h2>
+          <h1>GatsbyJS:<br />il futuro è veloce</h1>
+        </section>
+      </div>
+    </div>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        history: true,
+        dependencies: [
+          { src: "plugin/markdown/marked.js" },
+          { src: "plugin/markdown/markdown.js" },
+          { src: "plugin/notes/notes.js", async: true },
+          {
+            src: "plugin/highlight/highlight.js",
+            async: true,
+            callback: function() {
+              hljs.initHighlightingOnLoad();
+            }
+          }
+        ]
+      });
+    </script>
+  </body>
 </html>
