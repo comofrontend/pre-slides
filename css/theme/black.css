@@ -284,7 +284,8 @@ body {
 .reveal .host {
   width: 400px;
   background-color: #fff;
-  padding: 20px; }
+  padding: 20px;
+  border-radius: 8px; }
 
 .reveal .events h2 {
   display: flex;
