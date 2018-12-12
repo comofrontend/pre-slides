@@ -300,12 +300,12 @@ body {
 
 .reveal .logos {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-auto-rows: 200px;
-  grid-gap: 20px; }
+  grid-gap: 10px; }
   .reveal .logos .logo {
     background-color: #fff;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
