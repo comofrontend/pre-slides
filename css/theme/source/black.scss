@@ -78,6 +78,16 @@ section.has-light-background {
 			background-color: transparent;
 			box-shadow: none;
 		}
+
+		&--sergio {
+			width: 200px;
+		}
+	}
+
+	.host-wrapper {
+		display: inline-block;
+		vertical-align: top;
+		font-size: 24px;
 	}
 
 	.events h2 {

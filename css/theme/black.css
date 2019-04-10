@@ -292,6 +292,13 @@ body {
   .reveal .host--ovo {
     background-color: transparent;
     box-shadow: none; }
+  .reveal .host--sergio {
+    width: 200px; }
+
+.reveal .host-wrapper {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 24px; }
 
 .reveal .events h2 {
   display: flex;
