@@ -13,7 +13,7 @@
 @import url(../../lib/font/source-sans-pro/source-sans-pro.css);
 
 // Override theme settings (see ../template/settings.scss)
-$backgroundColor: #00b6cf;
+$backgroundColor: #171717;
 
 $mainColor: #fff;
 $headingColor: #fff;
@@ -129,8 +129,14 @@ section.has-light-background {
     border: 1px solid white;
   }
 
+  em {
+    color: #00a9c5;
+    font-style: normal;
+  }
+
   .logo {
     box-shadow: none;
+    width: 650px;
   }
 }
 

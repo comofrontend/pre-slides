@@ -17,8 +17,8 @@ section.has-light-background h6 {
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #00b6cf;
-  background-color: #00b6cf; }
+  background: #171717;
+  background-color: #171717; }
 
 .reveal {
   font-family: "Karla", sans-serif;
@@ -275,7 +275,7 @@ body {
  *********************************************/
 @media print {
   .backgrounds {
-    background-color: #00b6cf; } }
+    background-color: #171717; } }
 
 .reveal h1,
 .reveal h2,
@@ -336,8 +336,13 @@ body {
 .reveal hr {
   border: 1px solid white; }
 
+.reveal em {
+  color: #00a9c5;
+  font-style: normal; }
+
 .reveal .logo {
-  box-shadow: none; }
+  box-shadow: none;
+  width: 650px; }
 
 .controls button {
   display: none; }
